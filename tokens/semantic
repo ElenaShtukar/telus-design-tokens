@@ -1,0 +1,83 @@
+{
+  "semantic": {
+    "color": {
+      "brand": {
+        "primary": { 
+          "value": "{color.purple.600}", 
+          "type": "color",
+          "description": "Brand primary - buttons, links, active states"
+        },
+        "primaryHover": { 
+          "value": "{color.purple.500}", 
+          "type": "color",
+          "description": "Brand hover state"
+        },
+        "primaryActive": { 
+          "value": "{color.purple.700}", 
+          "type": "color",
+          "description": "Brand active/pressed state"
+        },
+        "primaryDisabled": { 
+          "value": "{color.purple.50}", 
+          "type": "color",
+          "description": "Brand disabled background"
+        },
+        "primaryDisabledText": { 
+          "value": "{color.purple.400}", 
+          "type": "color",
+          "description": "Brand disabled text"
+        },
+        "secondary": { 
+          "value": "{color.violet.500}", 
+          "type": "color",
+          "description": "Brand secondary - accents, highlights"
+        },
+        "accent": { 
+          "value": "{color.magenta.500}", 
+          "type": "color",
+          "description": "Brand accent - CTAs, special features"
+        }
+      },
+      "feedback": {
+        "success": { 
+          "value": "{color.green.500}", 
+          "type": "color",
+          "description": "Success states, positive actions, checkmarks"
+        },
+        "successBackground": { 
+          "value": "{color.green.50}", 
+          "type": "color",
+          "description": "Success background, alerts"
+        },
+        "error": { 
+          "value": "{color.red.500}", 
+          "type": "color",
+          "description": "Error states, validation errors, warnings"
+        },
+        "errorBackground": { 
+          "value": "{color.red.50}", 
+          "type": "color",
+          "description": "Error background, alert banners"
+        },
+        "warning": { 
+          "value": "{color.yellow.500}", 
+          "type": "color",
+          "description": "Warning states, caution, attention needed"
+        },
+        "warningBackground": { 
+          "value": "{color.yellow.50}", 
+          "type": "color",
+          "description": "Warning background"
+        },
+        "info": { 
+          "value": "{color.teal.500}", 
+          "type": "color",
+          "description": "Information, neutral alerts, tips"
+        },
+        "infoBackground": { 
+          "value": "{color.teal.50}", 
+          "type": "color",
+          "description": "Info background"
+        }
+      },
+      "
