@@ -231,3 +231,92 @@
         "value": "{font.size.xs}", 
         "type": "fontSizes",
         "description": "12px"
+      },
+      "Body": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "16px Regular"
+      },
+      "HeadingSection": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "Changed: 15px → 16px"
+      },
+      "HeadingEyebrow": { 
+        "value": "{font.size.xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 13px → 12px"
+      },
+      "Counter": { 
+        "value": "{font.size.4xl}", 
+        "type": "fontSizes",
+        "description": "36px"
+      },
+      "CardTitle": { 
+        "value": "{font.size.sm}", 
+        "type": "fontSizes",
+        "description": "14px"
+      },
+      "CardMetaInfo": { 
+        "value": "{font.size.sm}", 
+        "type": "fontSizes",
+        "description": "14px"
+      },
+      "ListItemName": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "Changed: 15px → 16px"
+      },
+      "CardTitleEyebrow": { 
+        "value": "{font.size.2xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 11px → 10px"
+      },
+      "ButtonL": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "16px SemiBold"
+      },
+      "ButtonS": { 
+        "value": "{font.size.sm}", 
+        "type": "fontSizes",
+        "description": "14px SemiBold"
+      },
+      "HeaderTab": { 
+        "value": "{font.size.xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 13px → 12px Bold"
+      },
+      "BottomTab": { 
+        "value": "{font.size.2xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 11px → 10px"
+      },
+      "Labels_Tag": { 
+        "value": "{font.size.2xs}", 
+        "type": "fontSizes",
+        "description": "10px"
+      },
+      "Labels_TagBold": { 
+        "value": "{font.size.2xs}", 
+        "type": "fontSizes",
+        "description": "10px Bold"
+      },
+      "ProgressPointsL": { 
+        "value": "{font.size.xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 13px → 12px"
+      },
+      "ProgressPointsS": { 
+        "value": "{font.size.2xs}", 
+        "type": "fontSizes",
+        "description": "Changed: 9px → 10px Bold"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["legacy"]
+  }
+}
+
