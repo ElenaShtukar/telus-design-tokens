@@ -1,149 +1,233 @@
 {
-  "semantic": {
+  "legacy": {
     "color": {
-      "brand": {
-        "primary": { 
-          "value": "{color.purple.600}", 
-          "type": "color",
-          "description": "Brand primary - buttons, links, active states"
-        },
-        "primaryHover": { 
-          "value": "{color.purple.500}", 
-          "type": "color",
-          "description": "Brand hover state"
-        },
-        "primaryActive": { 
-          "value": "{color.purple.700}", 
-          "type": "color",
-          "description": "Brand active/pressed state"
-        },
-        "primaryDisabled": { 
-          "value": "{color.purple.50}", 
-          "type": "color",
-          "description": "Brand disabled background"
-        },
-        "primaryDisabledText": { 
-          "value": "{color.purple.400}", 
-          "type": "color",
-          "description": "Brand disabled text"
-        },
-        "secondary": { 
-          "value": "{color.violet.500}", 
-          "type": "color",
-          "description": "Brand secondary - accents, highlights"
-        },
-        "accent": { 
-          "value": "{color.magenta.500}", 
-          "type": "color",
-          "description": "Brand accent - CTAs, special features"
-        }
+      "color_main": { 
+        "value": "{color.purple.600}", 
+        "type": "color",
+        "description": "Brand primary color"
       },
-      "feedback": {
-        "success": { 
-          "value": "{color.green.500}", 
-          "type": "color",
-          "description": "Success states, positive actions, checkmarks"
-        },
-        "successBackground": { 
-          "value": "{color.green.50}", 
-          "type": "color",
-          "description": "Success background, alerts"
-        },
-        "error": { 
-          "value": "{color.red.500}", 
-          "type": "color",
-          "description": "Error states, validation errors, warnings"
-        },
-        "errorBackground": { 
-          "value": "{color.red.50}", 
-          "type": "color",
-          "description": "Error background, alert banners"
-        },
-        "warning": { 
-          "value": "{color.yellow.500}", 
-          "type": "color",
-          "description": "Warning states, caution, attention needed"
-        },
-        "warningBackground": { 
-          "value": "{color.yellow.50}", 
-          "type": "color",
-          "description": "Warning background"
-        },
-        "info": { 
-          "value": "{color.teal.500}", 
-          "type": "color",
-          "description": "Information, neutral alerts, tips"
-        },
-        "infoBackground": { 
-          "value": "{color.teal.50}", 
-          "type": "color",
-          "description": "Info background"
-        }
+      "button_pressed": { 
+        "value": "{color.purple.500}", 
+        "type": "color",
+        "description": "Button active/pressed state"
       },
-      "text": {
-        "primary": { 
-          "value": "{color.grey.900}", 
-          "type": "color",
-          "description": "Primary text - headings, body text"
-        },
-        "secondary": { 
-          "value": "{color.grey.600}", 
-          "type": "color",
-          "description": "Secondary text - descriptions, meta info"
-        },
-        "tertiary": { 
-          "value": "{color.grey.500}", 
-          "type": "color",
-          "description": "Tertiary text - placeholders, hints"
-        },
-        "disabled": { 
-          "value": "{color.grey.400}", 
-          "type": "color",
-          "description": "Disabled text - inactive elements"
-        },
-        "inverse": { 
-          "value": "{color.grey.0}", 
-          "type": "color",
-          "description": "Inverse text - on dark backgrounds"
-        },
-        "inverseSecondary": { 
-          "value": "{color.grey.200}", 
-          "type": "color",
-          "description": "Secondary inverse text"
-        },
-        "link": { 
-          "value": "{color.purple.500}", 
-          "type": "color",
-          "description": "Interactive links"
-        },
-        "linkHover": { 
-          "value": "{color.purple.600}", 
-          "type": "color",
-          "description": "Link hover state"
-        },
-        "error": { 
-          "value": "{color.red.500}", 
-          "type": "color",
-          "description": "Error text - form validation"
-        }
+      "button_disabled": { 
+        "value": "{color.purple.50}", 
+        "type": "color",
+        "description": "Button disabled background"
       },
-      "background": {
-        "primary": { 
-          "value": "{color.grey.0}", 
-          "type": "color",
-          "description": "Primary background - white"
-        },
-        "secondary": { 
-          "value": "{color.grey.50}", 
-          "type": "color",
-          "description": "Secondary background - subtle grey"
-        },
-        "tertiary": { 
-          "value": "{color.grey.100}", 
-          "type": "color",
-          "description": "Tertiary background - cards, sections"
-        },
-        "disabled": { 
-          "value": "{color.purple.50}", 
-          "type": "color",
-          "description":
+      "tab_active": { 
+        "value": "{color.purple.600}", 
+        "type": "color",
+        "description": "Active tab indicator"
+      },
+      "tab_inactive": { 
+        "value": "{color.grey.400}", 
+        "type": "color",
+        "description": "Inactive tab (was #93918F)"
+      },
+      "button_text": { 
+        "value": "{color.purple.600}", 
+        "type": "color",
+        "description": "Primary button text"
+      },
+      "primarybuttontext": { 
+        "value": "{color.grey.0}", 
+        "type": "color",
+        "description": "White text on primary buttons"
+      },
+      "secondarybuttontext": { 
+        "value": "{color.purple.400}", 
+        "type": "color",
+        "description": "Secondary button text (was #7C53A5)"
+      },
+      "primary_button_disabled_text": { 
+        "value": "{color.purple.400}", 
+        "type": "color",
+        "description": "Disabled primary button text #7C53A5"
+      },
+      "text_main": { 
+        "value": "{color.grey.900}", 
+        "type": "color",
+        "description": "Primary text (was #0f0f12, now #151515)"
+      },
+      "text_secondary": { 
+        "value": "{color.grey.600}", 
+        "type": "color",
+        "description": "Secondary text (was #3d3e42, now #525356)"
+      },
+      "text_place_holder": { 
+        "value": "{color.grey.500}", 
+        "type": "color",
+        "description": "Placeholder text"
+      },
+      "interactive_text": { 
+        "value": "{color.purple.500}", 
+        "type": "color",
+        "description": "Links and interactive elements"
+      },
+      "mindful": { 
+        "value": "{color.yellow.300}", 
+        "type": "color",
+        "description": "Mindfulness category (was #FACA69)"
+      },
+      "exercise": { 
+        "value": "{color.magenta.500}", 
+        "type": "color",
+        "description": "Exercise category (was #D2377A)"
+      },
+      "educational": { 
+        "value": "{color.teal.400}", 
+        "type": "color",
+        "description": "Educational category (was #22ACA4)"
+      },
+      "medium_grey": { 
+        "value": "{color.grey.300}", 
+        "type": "color",
+        "description": "Medium grey (was #BDBEBF)"
+      },
+      "light_grey": { 
+        "value": "{color.grey.50}", 
+        "type": "color",
+        "description": "Light grey background (was #F8F7F6)"
+      },
+      "dark_grey": { 
+        "value": "{color.grey.400}", 
+        "type": "color",
+        "description": "Dark grey (was #8F9093)"
+      }
+    },
+    "spacing": {
+      "space_none": { 
+        "value": "{spacing.0}", 
+        "type": "dimension",
+        "description": "0px"
+      },
+      "space_micro": { 
+        "value": "{spacing.1}", 
+        "type": "dimension",
+        "description": "Changed: 2px → 4px"
+      },
+      "space_xxs": { 
+        "value": "{spacing.1}", 
+        "type": "dimension",
+        "description": "4px"
+      },
+      "space_xs": { 
+        "value": "{spacing.2}", 
+        "type": "dimension",
+        "description": "8px"
+      },
+      "space_sm": { 
+        "value": "{spacing.3}", 
+        "type": "dimension",
+        "description": "12px"
+      },
+      "space_md": { 
+        "value": "{spacing.4}", 
+        "type": "dimension",
+        "description": "16px"
+      },
+      "space_m": { 
+        "value": "{spacing.5}", 
+        "type": "dimension",
+        "description": "20px"
+      },
+      "space_lg": { 
+        "value": "{spacing.6}", 
+        "type": "dimension",
+        "description": "24px"
+      },
+      "space_l": { 
+        "value": "{spacing.6}", 
+        "type": "dimension",
+        "description": "Changed: 28px → 24px"
+      },
+      "space_xl": { 
+        "value": "{spacing.8}", 
+        "type": "dimension",
+        "description": "32px"
+      },
+      "space_2xl": { 
+        "value": "{spacing.8}", 
+        "type": "dimension",
+        "description": "Changed: 36px → 32px"
+      },
+      "space_3xl": { 
+        "value": "{spacing.10}", 
+        "type": "dimension",
+        "description": "40px"
+      },
+      "space_4xl": { 
+        "value": "{spacing.10}", 
+        "type": "dimension",
+        "description": "Changed: 44px → 40px"
+      },
+      "space_5xl": { 
+        "value": "{spacing.12}", 
+        "type": "dimension",
+        "description": "48px"
+      }
+    },
+    "radius": {
+      "tag_radius": { 
+        "value": "{radius.sm}", 
+        "type": "dimension",
+        "description": "4px"
+      },
+      "card_radius": { 
+        "value": "{radius.xl}", 
+        "type": "dimension",
+        "description": "16px"
+      },
+      "button_radius": { 
+        "value": "{radius.pill}", 
+        "type": "dimension",
+        "description": "Changed: 30px → pill (fully rounded)"
+      },
+      "chip_radius": { 
+        "value": "{radius.pill}", 
+        "type": "dimension",
+        "description": "Pill shape"
+      },
+      "global_radius": { 
+        "value": "{radius.xl}", 
+        "type": "dimension",
+        "description": "16px"
+      }
+    },
+    "font": {
+      "PageTitle": { 
+        "value": "{font.size.xl}", 
+        "type": "fontSizes",
+        "description": "Changed: 21px → 22px"
+      },
+      "Heading01": { 
+        "value": "{font.size.lg}", 
+        "type": "fontSizes",
+        "description": "18px"
+      },
+      "Heading02": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "16px"
+      },
+      "Heading03": { 
+        "value": "{font.size.sm}", 
+        "type": "fontSizes",
+        "description": "14px"
+      },
+      "HeadingLarge": { 
+        "value": "{font.size.2xl}", 
+        "type": "fontSizes",
+        "description": "24px"
+      },
+      "HeadingLight": { 
+        "value": "{font.size.base}", 
+        "type": "fontSizes",
+        "description": "16px Regular"
+      },
+      "MetaInfo": { 
+        "value": "{font.size.xs}", 
+        "type": "fontSizes",
+        "description": "12px"
