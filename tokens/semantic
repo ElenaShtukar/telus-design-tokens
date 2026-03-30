@@ -80,4 +80,190 @@
           "description": "Info background"
         }
       },
-      "
+      "text": {
+        "primary": { 
+          "value": "{color.grey.900}", 
+          "type": "color",
+          "description": "Primary text - headings, body text"
+        },
+        "secondary": { 
+          "value": "{color.grey.600}", 
+          "type": "color",
+          "description": "Secondary text - descriptions, meta info"
+        },
+        "tertiary": { 
+          "value": "{color.grey.500}", 
+          "type": "color",
+          "description": "Tertiary text - placeholders, hints"
+        },
+        "disabled": { 
+          "value": "{color.grey.400}", 
+          "type": "color",
+          "description": "Disabled text - inactive elements"
+        },
+        "inverse": { 
+          "value": "{color.grey.0}", 
+          "type": "color",
+          "description": "Inverse text - on dark backgrounds"
+        },
+        "inverseSecondary": { 
+          "value": "{color.grey.200}", 
+          "type": "color",
+          "description": "Secondary inverse text"
+        },
+        "link": { 
+          "value": "{color.purple.500}", 
+          "type": "color",
+          "description": "Interactive links"
+        },
+        "linkHover": { 
+          "value": "{color.purple.600}", 
+          "type": "color",
+          "description": "Link hover state"
+        },
+        "error": { 
+          "value": "{color.red.500}", 
+          "type": "color",
+          "description": "Error text - form validation"
+        }
+      },
+      "background": {
+        "primary": { 
+          "value": "{color.grey.0}", 
+          "type": "color",
+          "description": "Primary background - white"
+        },
+        "secondary": { 
+          "value": "{color.grey.50}", 
+          "type": "color",
+          "description": "Secondary background - subtle grey"
+        },
+        "tertiary": { 
+          "value": "{color.grey.100}", 
+          "type": "color",
+          "description": "Tertiary background - cards, sections"
+        },
+        "disabled": { 
+          "value": "{color.purple.50}", 
+          "type": "color",
+          "description": "Disabled element background"
+        },
+        "overlay": { 
+          "value": "{color.grey.900}", 
+          "type": "color",
+          "description": "Modal overlay, backdrop"
+        },
+        "brand": { 
+          "value": "{color.purple.600}", 
+          "type": "color",
+          "description": "Brand background - headers, heroes"
+        },
+        "brandLight": { 
+          "value": "{color.purple.50}", 
+          "type": "color",
+          "description": "Light brand background - subtle branding"
+        }
+      },
+      "border": {
+        "default": { 
+          "value": "{color.grey.300}", 
+          "type": "color",
+          "description": "Default borders - inputs, dividers"
+        },
+        "hover": { 
+          "value": "{color.grey.400}", 
+          "type": "color",
+          "description": "Hover state borders"
+        },
+        "focused": { 
+          "value": "{color.purple.600}", 
+          "type": "color",
+          "description": "Focused/active borders"
+        },
+        "error": { 
+          "value": "{color.red.500}", 
+          "type": "color",
+          "description": "Error state borders"
+        },
+        "disabled": { 
+          "value": "{color.grey.200}", 
+          "type": "color",
+          "description": "Disabled borders"
+        }
+      },
+      "category": {
+        "mindful": { 
+          "value": "{color.yellow.300}", 
+          "type": "color",
+          "description": "Mindfulness category - graphics"
+        },
+        "mindfulText": { 
+          "value": "{color.yellow.600}", 
+          "type": "color",
+          "description": "Mindfulness category - text"
+        },
+        "mindfulBackground": { 
+          "value": "{color.yellow.50}", 
+          "type": "color",
+          "description": "Mindfulness category - background"
+        },
+        "exercise": { 
+          "value": "{color.magenta.500}", 
+          "type": "color",
+          "description": "Exercise category - graphics"
+        },
+        "exerciseText": { 
+          "value": "{color.magenta.700}", 
+          "type": "color",
+          "description": "Exercise category - text"
+        },
+        "exerciseBackground": { 
+          "value": "{color.magenta.50}", 
+          "type": "color",
+          "description": "Exercise category - background"
+        },
+        "educational": { 
+          "value": "{color.teal.400}", 
+          "type": "color",
+          "description": "Educational category - graphics"
+        },
+        "educationalText": { 
+          "value": "{color.teal.700}", 
+          "type": "color",
+          "description": "Educational category - text"
+        },
+        "educationalBackground": { 
+          "value": "{color.teal.50}", 
+          "type": "color",
+          "description": "Educational category - background"
+        }
+      },
+      "icon": {
+        "primary": { 
+          "value": "{color.grey.600}", 
+          "type": "color",
+          "description": "Default icon color"
+        },
+        "secondary": { 
+          "value": "{color.grey.400}", 
+          "type": "color",
+          "description": "Secondary/inactive icons"
+        },
+        "inverse": { 
+          "value": "{color.grey.0}", 
+          "type": "color",
+          "description": "Icons on dark backgrounds"
+        },
+        "brand": { 
+          "value": "{color.purple.600}", 
+          "type": "color",
+          "description": "Brand icons"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["semantic"]
+  }
+}
