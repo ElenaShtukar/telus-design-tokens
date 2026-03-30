@@ -1,0 +1,301 @@
+{
+  "color": {
+    "grey": {
+      "50": { "value": "#F7F7F8", "type": "color", "description": "Lightest grey" },
+      "100": { "value": "#E8E8E9", "type": "color", "description": "Light grey" },
+      "200": { "value": "#CACACB", "type": "color", "description": "Grey 200" },
+      "300": { "value": "#A4A4A6", "type": "color", "description": "Grey 300" },
+      "400": { "value": "#858689", "type": "color", "description": "Grey 400" },
+      "500": { "value": "#67686B", "type": "color", "description": "Medium grey" },
+      "600": { "value": "#525356", "type": "color", "description": "Grey 600" },
+      "700": { "value": "#3E3E40", "type": "color", "description": "Dark grey" },
+      "800": { "value": "#292A2B", "type": "color", "description": "Darker grey" },
+      "900": { "value": "#151515", "type": "color", "description": "Near black" }
+    },
+    "purple": {
+      "50": { "value": "#EFEBF3", "type": "color", "description": "Lightest purple" },
+      "100": { "value": "#DFD7E7", "type": "color", "description": "Light purple" },
+      "200": { "value": "#C0AFD0", "type": "color", "description": "Purple 200" },
+      "300": { "value": "#A088B8", "type": "color", "description": "Purple 300" },
+      "400": { "value": "#8160A1", "type": "color", "description": "Purple 400" },
+      "500": { "value": "#613889", "type": "color", "description": "Purple 500" },
+      "600": { "value": "#4B286D", "type": "color", "description": "Brand primary" },
+      "700": { "value": "#3A2252", "type": "color", "description": "Purple 700" },
+      "800": { "value": "#271637", "type": "color", "description": "Purple 800" },
+      "900": { "value": "#130B1B", "type": "color", "description": "Darkest purple" }
+    },
+    "violet": {
+      "50": { "value": "#F2EAF6", "type": "color", "description": "Lightest violet" },
+      "100": { "value": "#E5D5EC", "type": "color", "description": "Light violet" },
+      "200": { "value": "#CBABD9", "type": "color", "description": "Violet 200" },
+      "300": { "value": "#B082C7", "type": "color", "description": "Violet 300" },
+      "400": { "value": "#9658B4", "type": "color", "description": "Violet 400" },
+      "500": { "value": "#7C2EA1", "type": "color", "description": "Violet 500" },
+      "600": { "value": "#632581", "type": "color", "description": "Violet 600" },
+      "700": { "value": "#4A1C61", "type": "color", "description": "Violet 700" },
+      "800": { "value": "#321240", "type": "color", "description": "Violet 800" },
+      "900": { "value": "#190920", "type": "color", "description": "Darkest violet" }
+    },
+    "magenta": {
+      "50": { "value": "#F9E9F2", "type": "color", "description": "Lightest magenta" },
+      "100": { "value": "#F4D4E5", "type": "color", "description": "Light magenta" },
+      "200": { "value": "#E9A8CB", "type": "color", "description": "Magenta 200" },
+      "300": { "value": "#DE7DB2", "type": "color", "description": "Magenta 300" },
+      "400": { "value": "#D35198", "type": "color", "description": "Magenta 400" },
+      "500": { "value": "#C8267E", "type": "color", "description": "Magenta 500" },
+      "600": { "value": "#A01E65", "type": "color", "description": "Magenta 600" },
+      "700": { "value": "#78174C", "type": "color", "description": "Magenta 700" },
+      "800": { "value": "#500F32", "type": "color", "description": "Magenta 800" },
+      "900": { "value": "#280819", "type": "color", "description": "Darkest magenta" }
+    },
+    "red": {
+      "50": { "value": "#F7EAEA", "type": "color", "description": "Lightest red" },
+      "100": { "value": "#EFD5D6", "type": "color", "description": "Light red" },
+      "200": { "value": "#DFAAAD", "type": "color", "description": "Red 200" },
+      "300": { "value": "#D08083", "type": "color", "description": "Red 300" },
+      "400": { "value": "#C0555A", "type": "color", "description": "Red 400" },
+      "500": { "value": "#B02B31", "type": "color", "description": "Error" },
+      "600": { "value": "#8D2227", "type": "color", "description": "Red 600" },
+      "700": { "value": "#6A1A1D", "type": "color", "description": "Red 700" },
+      "800": { "value": "#461114", "type": "color", "description": "Red 800" },
+      "900": { "value": "#23090A", "type": "color", "description": "Darkest red" }
+    },
+    "yellow": {
+      "50": { "value": "#FFF8E7", "type": "color", "description": "Lightest yellow" },
+      "100": { "value": "#FFF2CF", "type": "color", "description": "Light yellow" },
+      "200": { "value": "#FFE59F", "type": "color", "description": "Yellow 200" },
+      "300": { "value": "#FED86E", "type": "color", "description": "Yellow 300" },
+      "400": { "value": "#FECB3E", "type": "color", "description": "Yellow 400" },
+      "500": { "value": "#FEBE0E", "type": "color", "description": "Warning" },
+      "600": { "value": "#CB980B", "type": "color", "description": "Yellow 600" },
+      "700": { "value": "#987208", "type": "color", "description": "Yellow 700" },
+      "800": { "value": "#664C06", "type": "color", "description": "Yellow 800" },
+      "900": { "value": "#332603", "type": "color", "description": "Darkest yellow" }
+    },
+    "green": {
+      "50": { "value": "#F1F6ED", "type": "color", "description": "Lightest green" },
+      "100": { "value": "#D5E6CC", "type": "color", "description": "Light green" },
+      "200": { "value": "#AACC99", "type": "color", "description": "Green 200" },
+      "300": { "value": "#80B366", "type": "color", "description": "Green 300" },
+      "400": { "value": "#559933", "type": "color", "description": "Green 400" },
+      "500": { "value": "#2B8000", "type": "color", "description": "Success" },
+      "600": { "value": "#226600", "type": "color", "description": "Green 600" },
+      "700": { "value": "#1A4D00", "type": "color", "description": "Green 700" },
+      "800": { "value": "#113300", "type": "color", "description": "Green 800" },
+      "900": { "value": "#091A00", "type": "color", "description": "Darkest green" }
+    },
+    "teal": {
+      "50": { "value": "#E9F4F3", "type": "color", "description": "Lightest teal" },
+      "100": { "value": "#D2E9E8", "type": "color", "description": "Light teal" },
+      "200": { "value": "#A5D4D1", "type": "color", "description": "Teal 200" },
+      "300": { "value": "#79BEBA", "type": "color", "description": "Teal 300" },
+      "400": { "value": "#4CA9A3", "type": "color", "description": "Teal 400" },
+      "500": { "value": "#1F938C", "type": "color", "description": "Teal 500" },
+      "600": { "value": "#197670", "type": "color", "description": "Teal 600" },
+      "700": { "value": "#135854", "type": "color", "description": "Teal 700" },
+      "800": { "value": "#0C3B38", "type": "color", "description": "Teal 800" },
+      "900": { "value": "#061D1C", "type": "color", "description": "Darkest teal" }
+    }
+  },
+  "spacing": {
+    "0": { 
+      "value": "0px", 
+      "type": "dimension",
+      "description": "No spacing"
+    },
+    "1": { 
+      "value": "4px", 
+      "type": "dimension",
+      "description": "Micro spacing (icons, tight alignment)"
+    },
+    "2": { 
+      "value": "8px", 
+      "type": "dimension",
+      "description": "Inline spacing (icon + text, small gaps)"
+    },
+    "3": { 
+      "value": "12px", 
+      "type": "dimension",
+      "description": "Tight grouping (cards, list items)"
+    },
+    "4": { 
+      "value": "16px", 
+      "type": "dimension",
+      "description": "Default spacing (base layout spacing)"
+    },
+    "5": { 
+      "value": "20px", 
+      "type": "dimension",
+      "description": "Medium grouping (sections inside components)"
+    },
+    "6": { 
+      "value": "24px", 
+      "type": "dimension",
+      "description": "Section spacing (between content blocks)"
+    },
+    "8": { 
+      "value": "32px", 
+      "type": "dimension",
+      "description": "Layout spacing (screen-level separation)"
+    },
+    "10": { 
+      "value": "40px", 
+      "type": "dimension",
+      "description": "Large section spacing"
+    },
+    "12": { 
+      "value": "48px", 
+      "type": "dimension",
+      "description": "Page-level spacing"
+    }
+  },
+  "radius": {
+    "none": { 
+      "value": "0px", 
+      "type": "dimension",
+      "description": "No rounding (dividers, full-width elements)"
+    },
+    "xs": { 
+      "value": "2px", 
+      "type": "dimension",
+      "description": "Micro rounding (small tags, badges)"
+    },
+    "sm": { 
+      "value": "4px", 
+      "type": "dimension",
+      "description": "Small rounding (buttons, inputs)"
+    },
+    "md": { 
+      "value": "8px", 
+      "type": "dimension",
+      "description": "Default rounding (cards, list items)"
+    },
+    "lg": { 
+      "value": "12px", 
+      "type": "dimension",
+      "description": "Large rounding (modals, dialogs)"
+    },
+    "xl": { 
+      "value": "16px", 
+      "type": "dimension",
+      "description": "Extra large rounding (big containers)"
+    },
+    "pill": { 
+      "value": "99999px", 
+      "type": "dimension",
+      "description": "Fully rounded (buttons, chips, pills)"
+    }
+  },
+  "font": {
+    "size": {
+      "2xs": { 
+        "value": "10px", 
+        "type": "fontSizes",
+        "description": "Tags, badges"
+      },
+      "xs": { 
+        "value": "12px", 
+        "type": "fontSizes",
+        "description": "Meta info"
+      },
+      "sm": { 
+        "value": "14px", 
+        "type": "fontSizes",
+        "description": "Card titles, small buttons"
+      },
+      "base": { 
+        "value": "16px", 
+        "type": "fontSizes",
+        "description": "Body text, buttons"
+      },
+      "lg": { 
+        "value": "18px", 
+        "type": "fontSizes",
+        "description": "Section headings"
+      },
+      "xl": { 
+        "value": "22px", 
+        "type": "fontSizes",
+        "description": "Page titles"
+      },
+      "2xl": { 
+        "value": "24px", 
+        "type": "fontSizes",
+        "description": "Large headings"
+      },
+      "3xl": { 
+        "value": "28px", 
+        "type": "fontSizes",
+        "description": "Extra large headings"
+      },
+      "4xl": { 
+        "value": "36px", 
+        "type": "fontSizes",
+        "description": "Counters, display text"
+      }
+    },
+    "weight": {
+      "regular": { 
+        "value": "400", 
+        "type": "fontWeights",
+        "description": "Body text, labels"
+      },
+      "medium": { 
+        "value": "500", 
+        "type": "fontWeights",
+        "description": "Secondary emphasis"
+      },
+      "semibold": { 
+        "value": "600", 
+        "type": "fontWeights",
+        "description": "Buttons, headings, UI elements"
+      },
+      "bold": { 
+        "value": "700", 
+        "type": "fontWeights",
+        "description": "Strong emphasis, display text"
+      }
+    },
+    "lineHeight": {
+      "tight": { 
+        "value": "120%", 
+        "type": "lineHeights",
+        "description": "Headings (18px and above)"
+      },
+      "normal": { 
+        "value": "140%", 
+        "type": "lineHeights",
+        "description": "Body text (16px and below)"
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "value": "-0.5px",
+        "type": "letterSpacing",
+        "description": "Large headings (24px+)"
+      },
+      "normal": { 
+        "value": "0px", 
+        "type": "letterSpacing",
+        "description": "Default"
+      },
+      "wide": { 
+        "value": "0.5px", 
+        "type": "letterSpacing",
+        "description": "Tags, badges (10px)"
+      }
+    },
+    "family": {
+      "main": { 
+        "value": "HN for TELUS SA", 
+        "type": "fontFamilies",
+        "description": "Primary font for all text"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["color", "spacing", "radius", "font"]
+  }
+}
+

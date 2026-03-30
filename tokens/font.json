@@ -1,0 +1,113 @@
+{
+  "font": {
+    "size": {
+      "2xs": { 
+        "value": "10px", 
+        "type": "fontSizes",
+        "description": "Tags, badges"
+      },
+      "xs": { 
+        "value": "12px", 
+        "type": "fontSizes",
+        "description": "Meta info"
+      },
+      "sm": { 
+        "value": "14px", 
+        "type": "fontSizes",
+        "description": "Card titles, small buttons"
+      },
+      "base": { 
+        "value": "16px", 
+        "type": "fontSizes",
+        "description": "Body text, buttons"
+      },
+      "lg": { 
+        "value": "18px", 
+        "type": "fontSizes",
+        "description": "Section headings"
+      },
+      "xl": { 
+        "value": "22px", 
+        "type": "fontSizes",
+        "description": "Page titles"
+      },
+      "2xl": { 
+        "value": "24px", 
+        "type": "fontSizes",
+        "description": "Large headings"
+      },
+      "3xl": { 
+        "value": "28px", 
+        "type": "fontSizes",
+        "description": "Extra large headings"
+      },
+      "4xl": { 
+        "value": "36px", 
+        "type": "fontSizes",
+        "description": "Counters, display text"
+      }
+    },
+    "weight": {
+      "regular": { 
+        "value": "400", 
+        "type": "fontWeights",
+        "description": "Body text, labels"
+      },
+      "medium": { 
+        "value": "500", 
+        "type": "fontWeights",
+        "description": "Secondary emphasis"
+      },
+      "semibold": { 
+        "value": "600", 
+        "type": "fontWeights",
+        "description": "Buttons, headings, UI elements"
+      },
+      "bold": { 
+        "value": "700", 
+        "type": "fontWeights",
+        "description": "Strong emphasis, display text"
+      }
+    },
+    "lineHeight": {
+      "tight": { 
+        "value": "120%", 
+        "type": "lineHeights",
+        "description": "Headings (18px and above)"
+      },
+      "normal": { 
+        "value": "140%", 
+        "type": "lineHeights",
+        "description": "Body text (16px and below)"
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "value": "-0.5px",
+        "type": "letterSpacing",
+        "description": "Large headings (24px+)"
+      },
+      "normal": { 
+        "value": "0px", 
+        "type": "letterSpacing",
+        "description": "Default"
+      },
+      "wide": { 
+        "value": "0.5px", 
+        "type": "letterSpacing",
+        "description": "Tags, badges (10px)"
+      }
+    },
+    "family": {
+      "main": { 
+        "value": "HN for TELUS SA", 
+        "type": "fontFamilies",
+        "description": "Primary font for all text"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["font"]
+  }
+}
