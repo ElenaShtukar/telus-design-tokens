@@ -1,6 +1,8 @@
 {
   "color": {
+   
     "grey": {
+      "0": { "value": "#FFFFFF", "type": "color", "description": "White" },
       "50": { "value": "#F7F7F8", "type": "color", "description": "Lightest grey" },
       "100": { "value": "#E8E8E9", "type": "color", "description": "Light grey" },
       "200": { "value": "#CACACB", "type": "color", "description": "Grey 200" },

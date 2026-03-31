@@ -1,17 +1,19 @@
 {
-  "colors": {
+  "color": {
     "grey": {
-      "50": { "value": "#F7F7F8", "type": "color" },
-      "100": { "value": "#E8E8E9", "type": "color" },
-      "200": { "value": "#CACACB", "type": "color" },
-      "300": { "value": "#A4A4A6", "type": "color" },
-      "400": { "value": "#858689", "type": "color" },
-      "500": { "value": "#67686B", "type": "color" },
-      "600": { "value": "#525356", "type": "color" },
-      "700": { "value": "#3E3E40", "type": "color" },
-      "800": { "value": "#292A2B", "type": "color" },
-      "900": { "value": "#151515", "type": "color" }
+      "0": { "value": "#FFFFFF", "type": "color", "description": "White" },
+      "50": { "value": "#F7F7F8", "type": "color", "description": "Lightest grey" },
+      "100": { "value": "#E8E8E9", "type": "color", "description": "Light grey" },
+      "200": { "value": "#CACACB", "type": "color", "description": "Grey 200" },
+      "300": { "value": "#A4A4A6", "type": "color", "description": "Grey 300" },
+      "400": { "value": "#858689", "type": "color", "description": "Grey 400" },
+      "500": { "value": "#67686B", "type": "color", "description": "Medium grey" },
+      "600": { "value": "#525356", "type": "color", "description": "Grey 600" },
+      "700": { "value": "#3E3E40", "type": "color", "description": "Dark grey" },
+      "800": { "value": "#292A2B", "type": "color", "description": "Darker grey" },
+      "900": { "value": "#151515", "type": "color", "description": "Near black" }
     },
+
     "purple": {
       "50": { "value": "#EFEBF3", "type": "color" },
       "100": { "value": "#DFD7E7", "type": "color" },
