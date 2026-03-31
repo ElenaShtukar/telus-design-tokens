@@ -260,6 +260,116 @@
           "description": "Brand icons"
         }
       }
+    },
+    "typography": {
+      "heading": {
+        "1": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.2xl}",
+            "lineHeight": "{font.lineHeight.tight}"
+          },
+          "type": "typography",
+          "description": "Page titles - 24px Bold"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.xl}",
+            "lineHeight": "{font.lineHeight.tight}"
+          },
+          "type": "typography",
+          "description": "Section headings - 22px Bold"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.semibold}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineHeight.tight}"
+          },
+          "type": "typography",
+          "description": "Subsection headings - 18px SemiBold"
+        }
+      },
+      "body": {
+        "large": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.regular}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Large body text - 18px Regular"
+        },
+        "default": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.regular}",
+            "fontSize": "{font.size.base}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Default body text - 16px Regular"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.regular}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Small body text - 14px Regular"
+        }
+      },
+      "button": {
+        "large": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.semibold}",
+            "fontSize": "{font.size.base}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Large buttons - 16px SemiBold"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.semibold}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Small buttons - 14px SemiBold"
+        }
+      },
+      "label": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.medium}",
+            "fontSize": "{font.size.xs}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Labels, captions - 12px Medium"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{font.family.main}",
+            "fontWeight": "{font.weight.medium}",
+            "fontSize": "{font.size.2xs}",
+            "lineHeight": "{font.lineHeight.normal}"
+          },
+          "type": "typography",
+          "description": "Small labels, tags - 10px Medium"
+        }
+      }
     }
   },
   "$themes": [],
